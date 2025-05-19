@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+    }
+
+    body {
+      background-color: #70c5ce;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+      overflow: hidden;
+    }
+
+    #game-container {
+      position: relative;
+      width: 300px;
+      height: 500px;
+      background-color: #feb5ef;
+      overflow: hidden;
+      border: 3px solid #fff;
+      border-radius: 15px;
+    }
+
+    h2 {
+        position: absolute;
+        top: 20%;
+        left: 19%
+    }
+
+    h5 {
+        position: absolute;
+        top: 30%;
+        left: 22%
+    }
+
+    button {
+        width: 100px;
+        height: 60px;
+        font-size: large;
+        position: absolute;
+        top: 45%;
+        left: 33%;
+        background-color: skyblue;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    img {
+        position: absolute;
+        top: 60%;
+        left: 23%;
+    }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+    <h2>Flappy Introvert</h2>
+    <h5>a random idea by a btr fan</h5>
+    <a href="game.html">
+    <button id="play">Play</button>
+    </a>
+    <img src="fumo.png" width="150px">
+    </div>
+</body>
+</html>
